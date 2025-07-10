@@ -4,13 +4,15 @@
 }
 
 .header-container {
-    background-image: url("/Assets/Hero-bg.png");
+    background: url("/Assets/Hero-bg.png");
     background-position: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 1440px;
     margin: auto;
+    border-bottom: 1px dashed black;
+    border-color: grey;
 
 }
 
@@ -64,4 +66,44 @@
 
 button:hover {
     background-color: tomato;
+}
+
+.main {
+    width: 1140px;
+    margin: auto;
+
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 116px;
+    padding-bottom: 116px;
+}
+
+.action-container h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+}
+
+.action-container p {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 23px 0 23px 0;
+    width: 517px;
+    color: #25243280;
+}
+
+.action-container button {
+    color: #FFFFFF;
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+}
+
+.action-container img {
+    border-radius: 48px;
 }
