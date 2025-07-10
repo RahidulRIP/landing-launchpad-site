@@ -104,13 +104,17 @@ button:hover {
     border-radius: 10px;
 }
 
+.action-container button:hover {
+    background-color: tomato;
+}
+
 .action-container img {
     border-radius: 48px;
     width: 403px;
     height: 328px;
 }
 
-.users-section{
+.users-section {
     margin: auto;
     width: 856px;
     text-align: center;
@@ -124,7 +128,8 @@ button:hover {
     font-weight: 700;
     padding: 50px 0 40px 0;
 }
-.users{
+
+.users {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,9 +143,74 @@ button:hover {
 
 }
 
-.users p{
+.users p {
     font-size: 20px;
     font-family: 400;
     color: #00000080;
     padding-bottom: 50px;
+}
+
+
+.designers-section-title{
+    text-align: center;
+    padding: 132px 0 50px 0;
+}
+
+.designers-section {
+    
+    display: flex;
+    gap: 20px;
+    padding-bottom: 137px;
+
+}
+
+.designers-section-bg {
+    background-color: #FFFFFF80;
+    padding: 12px;
+    width: 366px;
+    border-radius: 14px;
+    border: 1px solid #F2EDED;
+}
+
+.designers-section img {
+    width: 20px;
+    padding-bottom: 24px;
+}
+
+.designers-section h2 {
+    font-size: 24px;
+    font-family: 600;
+    color: #1E1E1E;
+    padding-bottom: 10px;
+}
+
+.designers-section p {
+    font-size: 16px;
+    font-family: 400;
+    color: #1E1E1E;
+    padding-bottom: 30px;
+}
+
+.designers-section-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.designers-section-logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.designers-section-reviewer h5 {
+    font-size: medium;
+    font-weight: 600;
+}
+
+.designers-section-reviewer p {
+    font-size: 16px;
+    font-weight: 400;
+
 }
