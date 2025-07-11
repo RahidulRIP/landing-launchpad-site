@@ -5,8 +5,13 @@
 }
 
 
+/* google fonts  */
+.raleway-landing {
+    font-family: "Raleway", sans-serif;
+}
 
-/* header started here  */
+
+/* header started section here  */
 .header-container {
     width: 1440px;
     margin: auto;
@@ -16,7 +21,7 @@
 }
 
 
-/* navbar and hero started here  */
+/* navbar and hero started section here  */
 .nav-bar {
     width: 1140px;
     margin: auto;
@@ -71,7 +76,7 @@ button:hover {
 
 
 
-/* main started here  */
+/* main section started here  */
 .main {
     width: 1140px;
     margin: auto;
@@ -80,7 +85,7 @@ button:hover {
 
 
 
-/* See It in Action started here  */
+/* See It in Action section started here  */
 .action-container {
     display: flex;
     justify-content: space-between;
@@ -123,7 +128,7 @@ button:hover {
 
 
 
-/* Joined Thousands of Productive Users started here  */
+/* Joined Thousands of Productive Users section started here  */
 .users-section {
     margin: auto;
     width: 856px;
@@ -162,7 +167,7 @@ button:hover {
 
 
 
-/* What our users say started here  */
+/* What our users say section started here  */
 .designers-section-title {
     text-align: center;
     padding: 132px 0 50px 0;
@@ -229,7 +234,7 @@ button:hover {
 
 
 
-/* Ready to focus better started here  */
+/* Ready to focus better section started here  */
 .focus-section {
     text-align: center;
     background-color: #FFFFFF;
@@ -272,7 +277,7 @@ button:hover {
 
 
 
-/* Let’s Get in Touch started here  */
+/* Let’s Get in Touch section started here  */
 .touch-section {
     display: flex;
     align-items: center;
@@ -331,7 +336,7 @@ button:hover {
 }
 
 
-/* footer started here  */
+/* footer section started here  */
 .footer-container {
     background-color: #FFFFFF;
 
